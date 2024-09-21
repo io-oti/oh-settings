@@ -1,0 +1,334 @@
+{
+  /** vscode - editor
+  * ------------------------------------------------------------------------- */
+  "editor.acceptSuggestionOnEnter": "smart",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.codeActionsOnSave": {
+    // "source.fixAll": "never",
+    "source.fixAll.eslint": "explicit",
+    "source.organizeImports": "never"
+  },
+  "editor.cursorBlinking": "expand",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.find.addExtraSpaceOnTop": false,
+  "editor.fontFamily": "Hack, MesloLGS NF, Consolas, monospace",
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.inlineSuggest.enabled": true,
+  "editor.linkedEditing": true,
+  "editor.minimap.enabled": false,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.renderWhitespace": "boundary",
+  "editor.rulers": [
+    80
+  ],
+  "editor.smoothScrolling": true,
+  "editor.stickyScroll.enabled": true,
+  "editor.suggest.snippetsPreventQuickSuggestions": false,
+  "editor.suggestSelection": "recentlyUsed",
+  "editor.tabSize": 2,
+  "editor.wordSeparators": "`~!@#%^&*()=+[{]}\\|;:'\",.<>/?",
+  "editor.wordWrap": "wordWrapColumn",
+  "editor.wordWrapColumn": 80,
+  "editor.unicodeHighlight.invisibleCharacters": false,
+  /** vscode - editor - markdown
+  * ------------------------------------------------------------------------- */
+  "[markdown]": {
+    "editor.defaultFormatter": "yzhang.markdown-all-in-one",
+    "editor.quickSuggestions": {
+      "comments": "on",
+      "strings": "on",
+      "other": "on"
+    }
+  },
+  /** vscode - editor - html
+  * ------------------------------------------------------------------------- */
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  /** vscode - editor - css/less/sass
+  * ------------------------------------------------------------------------- */
+  "[css]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "[less]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "[sass]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  /** vscode - editor - javascript/typescript/javascriptreact
+  * ------------------------------------------------------------------------- */
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  /** vscode - editor - json/jsonc
+  * ------------------------------------------------------------------------- */
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  /** vscode - editor - vue
+  * ------------------------------------------------------------------------- */
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  /** vscode - editor - wx
+  * ------------------------------------------------------------------------- */
+  "[wxml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "[wxss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "[wxs]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  /** vscode - terminal
+  * ------------------------------------------------------------------------- */
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.cursorStyle": "underline",
+  "terminal.integrated.fontFamily": "Hack, MesloLGS NF",
+  "terminal.integrated.fontSize": 12,
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "terminal.integrated.env.osx": {},
+  "terminal.integrated.defaultProfile.linux": "zsh",
+  "terminal.integrated.env.linux": {},
+  "terminal.integrated.defaultProfile.windows": "Windows PowerShell",
+  "terminal.integrated.env.windows": {},
+  "terminal.integrated.persistentSessionReviveProcess": "never",
+  "terminal.integrated.tabs.location": "left",
+  /** vscode - workbench
+  * ------------------------------------------------------------------------- */
+  "workbench.colorCustomizations": {
+    // "editorBracketHighlight.foreground1": "#ED8796",
+    // "editorBracketHighlight.foreground2": "#EED49F",
+    // "editorBracketHighlight.foreground3": "#A6DA95",
+    // "editorBracketHighlight.foreground4": "#8AADF4",
+    // "editorBracketHighlight.foreground5": "#8BD5CA",
+    // "editorBracketHighlight.foreground6": "#F5BDE6",
+    // "terminal.ansiBlack": "#494D64",
+    // "terminal.ansiBlue": "#8AADF4",
+    // "terminal.ansiCyan": "#8BD5CA",
+    // "terminal.ansiGreen": "#A6DA95",
+    // "terminal.ansiMagenta": "#F5BDE6",
+    // "terminal.ansiRed": "#ED8796",
+    // "terminal.ansiWhite": "#B8C0E0",
+    // "terminal.ansiYellow": "#EED49F",
+    // "terminal.ansiBrightBlack": "#5B6078",
+    // "terminal.ansiBrightBlue": "#8AADF4",
+    // "terminal.ansiBrightCyan": "#8BD5CA",
+    // "terminal.ansiBrightGreen": "#A6DA95",
+    // "terminal.ansiBrightMagenta": "#F5BDE6",
+    // "terminal.ansiBrightRed": "#ED8796",
+    // "terminal.ansiBrightWhite": "#A5ADCB",
+    // "terminal.ansiBrightYellow": "#EED49F",
+    // "terminal.background": "#24273A",
+    // "terminal.foreground": "#CAD3F5",
+    // "terminal.selectionBackground": "#5B6078",
+    // "terminalCursor.foreground": "#F4DBD6",
+  },
+  "workbench.colorTheme": "Catppuccin Mocha",
+  "workbench.editor.closeOnFileDelete": true,
+  "workbench.editor.empty.hint": "hidden",
+  "workbench.editor.limit.enabled": true,
+  "workbench.editor.limit.perEditorGroup": true,
+  "workbench.editor.limit.value": 5,
+  "workbench.editor.highlightModifiedTabs": true,
+  "workbench.editor.showTabs": "multiple",
+  "workbench.layoutControl.enabled": false,
+  "workbench.layoutControl.type": "toggles",
+  "workbench.list.smoothScrolling": true,
+  "workbench.iconTheme": "catppuccin-mocha",
+  "workbench.productIconTheme": "icons-carbon",
+  "workbench.settings.applyToAllProfiles": [
+    "editor.fontFamily"
+  ],
+  "workbench.startupEditor": "none",
+  /** vscode - window
+  * ------------------------------------------------------------------------- */
+  // "window.autoDetectColorScheme": true,
+  "window.commandCenter": false,
+  "window.confirmBeforeClose": "keyboardOnly",
+  "window.dialogStyle": "custom",
+  "window.menuBarVisibility": "toggle",
+  "window.nativeTabs": true, // this is great, macOS only
+  "window.title": "${rootNameShort}",
+  "window.titleBarStyle": "custom",
+  /** vscode - javascript/typescript
+  * ------------------------------------------------------------------------- */
+  "javascript.format.insertSpaceAfterConstructor": true,
+  "javascript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": true,
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  /** vscode - json
+  * ------------------------------------------------------------------------- */
+  "json.schemaDownload.enable": false,
+  "json.validate.enable": false,
+  /** vscode - git
+  * ------------------------------------------------------------------------- */
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "git.untrackedChanges": "separate",
+  /** extensions
+  * ------------------------------------------------------------------------- */
+  "extensions.ignoreRecommendations": true,
+  /** extensions - gitlens
+  * ------------------------------------------------------------------------- */
+  "gitlens.ai.experimental.model": "openai:gpt-4o",
+  "gitlens.codeLens.authors.enabled": false,
+  "gitlens.graph.minimap.additionalTypes": [
+    "stashes"
+  ],
+  /** extensions - vue official
+  * ------------------------------------------------------------------------- */
+  "vue.autoInsert.dotValue": true,
+  "vue.server.hybridMode": false,
+  "vue.splitEditors.icon": true,
+  /** extensions - vite
+  * ------------------------------------------------------------------------- */
+  "vite.autoStart": false,
+  /** extensions - prettier
+  * ------------------------------------------------------------------------- */
+  "prettier.arrowParens": "avoid",
+  "prettier.bracketSameLine": false,
+  "prettier.bracketSpacing": true,
+  "prettier.printWidth": 80,
+  "prettier.semi": false,
+  "prettier.singleAttributePerLine": true,
+  "prettier.singleQuote": true,
+  "prettier.tabWidth": 2,
+  "prettier.trailingComma": "es5",
+  "prettier.documentSelectors": [
+    "**/*.wxml",
+    "**/*.wxss",
+    "**/*.wxs",
+  ],
+  /** extensions - color highlight
+  * ------------------------------------------------------------------------- */
+  "color-highlight.markRuler": false,
+  "color-highlight.markerType": "underline",
+  /** extensions - todo tree
+  * ------------------------------------------------------------------------- */
+  "todo-tree.highlights.customHighlight": {
+    "TODO": {
+      "foreground": "orange",
+    },
+    "NOTE": {
+      "foreground": "green",
+      "icon": "note",
+    },
+    "FIXME": {
+      "foreground": "red",
+      "icon": "alert",
+    },
+    // Clearly mark comments that belong to disabled (commented-out) code.
+    "// //": {
+      "foreground": "#5d7783",
+      "textDecoration": "line-through",
+      "type": "text",
+      "hideFromTree": true,
+    },
+  },
+  "todo-tree.tree.grouped": true,
+  "todo-tree.tree.hideIconsWhenGroupedByTag": true,
+  "todo-tree.tree.labelFormat": "∙ ${after}",
+  "todo-tree.tree.showCountsInTree": true,
+  "todo-tree.tree.showInExplorer": false,
+  "todo-tree.tree.showScanOpenFilesOrWorkspaceButton": true,
+  "todo-tree.tree.tagsOnly": true,
+  "todo-tree.highlights.highlightDelay": 0,
+  "todo-tree.general.tags": [
+    "TODO",
+    "NOTE",
+    "FIXME",
+    "// //",
+  ],
+  // Allow for matches inside of VSCode files (e.g. `settings.json`).
+  "todo-tree.general.schemes": [
+    "file",
+    "untitled",
+    "vscode-userdata"
+  ],
+  // Allows for matches inside of JSDoc comments.
+  "todo-tree.regex.regex": "((\\*|//|#|<!--|;|/\\*|^)\\s*($TAGS)|^\\s*- \\[ \\])",
+  /** extensions - rewrap
+  * ------------------------------------------------------------------------- */
+  "rewrap.autoWrap.enabled": true,
+  "rewrap.reformat": true,
+  "rewrap.wrappingColumn": 80,
+  /** extensions - code runner
+  * ------------------------------------------------------------------------- */
+  "code-runner.clearPreviousOutput": true,
+  /** extensions - codesnap
+  * ------------------------------------------------------------------------- */
+  "codesnap.containerPadding": "1em",
+  /** extensions - rest client
+  * ------------------------------------------------------------------------- */
+  "rest-client.showResponseInDifferentTab": true,
+  /** extensions - edge devtools
+  * ------------------------------------------------------------------------- */
+  "vscode-edge-devtools.webhint": false,
+  /** extensions - markdown preview enhanced
+  * ------------------------------------------------------------------------- */
+  "markdown-preview-github-styles.darkTheme": "dark_dimmed",
+  "markdown-preview-enhanced.previewTheme": "github-dark.css",
+  "markdown-preview-enhanced.revealjsTheme": "moon.css",
+  "markdown-preview-enhanced.codeBlockTheme": "github-dark.css",
+  "markdown-preview-enhanced.alwaysShowBacklinksInPreview": false,
+  /** extensions - dotenv
+  * ------------------------------------------------------------------------- */
+  "dotenv.enableAutocloaking": false,
+  "svg.preview.mode": "svg",
+  "i18n-ally.displayLanguage": "zh-CN",
+  "vscode-office.editorLanguage": "zh_CN",
+  "vscode-office.openOutline": false,
+  "cSpell.customDictionaries": {
+    "custom-dictionary-user": {
+      "name": "custom-dictionary-user",
+      "path": "~/.cspell/custom-dictionary-user.txt",
+      "addWords": true,
+      "scope": "user"
+    }
+  },
+  /** others
+  * ------------------------------------------------------------------------- */
+  "files.autoGuessEncoding": true,
+  "files.eol": "\n",
+  "files.insertFinalNewline": true,
+  "files.simpleDialog.enable": true,
+  "files.trimTrailingWhitespace": true,
+  "update.mode": "manual",
+  "security.workspace.trust.untrustedFiles": "open",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "typescript.tsc.autoDetect": "off",
+  "grunt.autoDetect": "off",
+  "jake.autoDetect": "off",
+  "gulp.autoDetect": "off",
+  "explorer.confirmDragAndDrop": false,
+  "scm.diffDecorationsGutterWidth": 2,
+  "extensions.autoUpdate": "onlyEnabledExtensions",
+  "search.showLineNumbers": true,
+  "workbench.activityBar.location": "top",
+  "security.allowedUNCHosts": [
+    "wsl$"
+  ],
+  "gitlens.graph.minimap.enabled": false,
+  "git.ignoreMissingGitWarning": true,
+  "gitlens.views.commitDetails.files.layout": "tree",
+  "hediet.vscode-drawio.codeLinkActivated": false,
+  "animations.Install-Method": "Apc Customize UI++",
+  "apc.imports": [
+    "file:///c:/Users/Io_oT/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.3/dist/updateHandler.js"
+  ],
+}
