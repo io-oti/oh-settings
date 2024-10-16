@@ -2,10 +2,28 @@
 
 ## visudo studio code
 
-### extensions
+### user
 
-[my extensions](.vscode/extensions.json)
+[user settings](visual-studio-code/settings.json)
 
-### settings
+### workspace
 
-[my settings](.vscode/settings.json)
+#### extensions
+
+[extensions](visual-studio-code/.vscode/extensions.json)
+
+## wechat developer devtools
+
+### user
+
+[user settings](wechat-developer-devtools/settings.json)
+
+### workspace
+
+#### extensions
+
+[extensions](wechat-developer-devtools/.vscode/extensions.json)
+
+#### settings
+
+[workspace settings](wechat-developer-devtools/.vscode/settings.json)

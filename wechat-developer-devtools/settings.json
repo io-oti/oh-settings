@@ -1,0 +1,49 @@
+{
+  "editor.cursorBlinking": "expand",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.detectIndentation": false,
+  "editor.fontFamily": "Hack, MesloLGS NF",
+  "editor.formatOnSave": true,
+  "editor.fontSize": 12,
+  "editor.glyphMargin": false,
+  "editor.insertSpaces": true,
+  "editor.lineHeight": 22,
+  "editor.minimap.enabled": false,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.renderWhitespace": "boundary",
+  "editor.rulers": [
+    80
+  ],
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  "files.eol": "auto",
+  "files.autoSave": "off",
+  "workbench.colorTheme": "GitHub Dark Dimmed",
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "workbench.editorAssociations": [
+    {
+      "filenamePattern": "project.miniapp.json",
+      "viewType": "settingsEditor.settingsedit"
+    }
+  ],
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[wxml]": {
+    "editor.suggest.insertMode": "replace",
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "window.menuBarVisibility": "default",
+  "explorer.confirmDelete": false,
+  "workbench.editor.showTabs": true
+}

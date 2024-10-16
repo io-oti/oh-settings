@@ -1,0 +1,22 @@
+{
+  "[wxml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[wxss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[wxs]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "prettier.documentSelectors": [
+    "**/*.wxml",
+    "**/*.wxss",
+    "**/*.wxs"
+  ],
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.expand": false,
+  "explorer.fileNesting.patterns": {
+    "README.md": "project.*.json,sitemap.json",
+    "package.json": ".*,package-lock.json"
+  }
+}
