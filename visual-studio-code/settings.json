@@ -1,17 +1,16 @@
 {
-  /** vscode - editor
-  * ------------------------------------------------------------------------- */
+  // #region editor ------------------------------------------------------------
   "editor.acceptSuggestionOnEnter": "smart",
   "editor.bracketPairColorization.enabled": true,
   "editor.codeActionsOnSave": {
-    // "source.fixAll": "never",
     "source.fixAll.eslint": "explicit",
     "source.organizeImports": "never"
   },
   "editor.cursorBlinking": "expand",
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.find.addExtraSpaceOnTop": false,
-  "editor.fontFamily": "Hack, MesloLGS NF, Consolas, monospace",
+  "editor.fontFamily": "Maple Mono NF CN, Hack, MesloLGS NF, Consolas, monospace",
+  "editor.fontLigatures": true,
   "editor.formatOnPaste": true,
   "editor.formatOnType": true,
   "editor.guides.bracketPairs": "active",
@@ -24,7 +23,6 @@
     80
   ],
   "editor.smoothScrolling": true,
-  "editor.stickyScroll.enabled": true,
   "editor.suggest.snippetsPreventQuickSuggestions": false,
   "editor.suggestSelection": "recentlyUsed",
   "editor.tabSize": 2,
@@ -32,8 +30,8 @@
   "editor.wordWrap": "wordWrapColumn",
   "editor.wordWrapColumn": 80,
   "editor.unicodeHighlight.invisibleCharacters": false,
-  /** vscode - editor - markdown
-  * ------------------------------------------------------------------------- */
+  // #endregion ----------------------------------------------------------------
+  // #region editor - markdown -------------------------------------------------
   "[markdown]": {
     "editor.defaultFormatter": "yzhang.markdown-all-in-one",
     "editor.quickSuggestions": {
@@ -42,48 +40,69 @@
       "other": "on"
     }
   },
-  /** vscode - editor - html
-  * ------------------------------------------------------------------------- */
+  // #endregion ----------------------------------------------------------------
+  // #region editor - html -----------------------------------------------------
   "[html]": {
     "editor.defaultFormatter": "vscode.html-language-features"
   },
-  /** vscode - editor - css/less/sass
-  * ------------------------------------------------------------------------- */
+  // #endregion ----------------------------------------------------------------
+  // #region editor - css ------------------------------------------------------
   "[css]": {
     "editor.defaultFormatter": "vscode.css-language-features"
   },
+  // #endregion ----------------------------------------------------------------
+  // #region editor - less -----------------------------------------------------
   "[less]": {
     "editor.defaultFormatter": "vscode.css-language-features"
   },
+  // #endregion ----------------------------------------------------------------
+  // #region editor - sass -----------------------------------------------------
   "[sass]": {
     "editor.defaultFormatter": "vscode.css-language-features"
   },
-  /** vscode - editor - javascript/typescript/javascriptreact
-  * ------------------------------------------------------------------------- */
+  // #endregion ----------------------------------------------------------------
+  // #region editor - javascript -----------------------------------------------
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "javascript.format.insertSpaceAfterConstructor": true,
+  "javascript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": true,
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  // #endregion ----------------------------------------------------------------
+  // #region editor - typescript -----------------------------------------------
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  // #endregion ----------------------------------------------------------------
+  // #region editor - javascriptreact ------------------------------------------
   "[javascriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  /** vscode - editor - json/jsonc
-  * ------------------------------------------------------------------------- */
-  "[json]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
+  // #endregion ----------------------------------------------------------------
+  // #region editor - typescriptreact ------------------------------------------
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  // #endregion ----------------------------------------------------------------
+  // #region editor - json -----------------------------------------------------
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features",
+  },
+  "json.schemaDownload.enable": false,
+  "json.validate.enable": false,
+  // #endregion ----------------------------------------------------------------
+  // #region editor - jsonc ----------------------------------------------------
   "[jsonc]": {
     "editor.defaultFormatter": "vscode.json-language-features"
   },
-  /** vscode - editor - vue
-  * ------------------------------------------------------------------------- */
+  // #endregion ----------------------------------------------------------------
+  // #region editor - vue ------------------------------------------------------
   "[vue]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
-  /** vscode - editor - wx
-  * ------------------------------------------------------------------------- */
+  // #endregion ----------------------------------------------------------------
+  // #region editor - wx -------------------------------------------------------
   "[wxml]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
@@ -93,11 +112,26 @@
   "[wxs]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
-  /** vscode - terminal
-  * ------------------------------------------------------------------------- */
+  // #endregion ----------------------------------------------------------------
+  // #region explorer ----------------------------------------------------------
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  // #endregion ----------------------------------------------------------------
+  // #region files -------------------------------------------------------------
+  "files.associations": {
+    "*.conf": "makefile"
+  },
+  "files.autoGuessEncoding": true,
+  "files.eol": "\n",
+  "files.insertFinalNewline": true,
+  "files.simpleDialog.enable": true,
+  "files.trimTrailingWhitespace": true,
+  // #endregion ----------------------------------------------------------------
+  // #region terminal ----------------------------------------------------------
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.cursorStyle": "underline",
-  "terminal.integrated.fontFamily": "Hack, MesloLGS NF",
+  "terminal.integrated.fontFamily": "Maple Mono NF CN, Hack, MesloLGS NF",
+  "terminal.integrated.fontLigatures": true,
   "terminal.integrated.fontSize": 12,
   "terminal.integrated.defaultProfile.osx": "zsh",
   "terminal.integrated.env.osx": {},
@@ -106,38 +140,26 @@
   "terminal.integrated.defaultProfile.windows": "Windows PowerShell",
   "terminal.integrated.env.windows": {},
   "terminal.integrated.persistentSessionReviveProcess": "never",
+  "terminal.integrated.tabs.enabled": false,
   "terminal.integrated.tabs.location": "left",
-  /** vscode - workbench
-  * ------------------------------------------------------------------------- */
-  "workbench.colorCustomizations": {
-    // "editorBracketHighlight.foreground1": "#ED8796",
-    // "editorBracketHighlight.foreground2": "#EED49F",
-    // "editorBracketHighlight.foreground3": "#A6DA95",
-    // "editorBracketHighlight.foreground4": "#8AADF4",
-    // "editorBracketHighlight.foreground5": "#8BD5CA",
-    // "editorBracketHighlight.foreground6": "#F5BDE6",
-    // "terminal.ansiBlack": "#494D64",
-    // "terminal.ansiBlue": "#8AADF4",
-    // "terminal.ansiCyan": "#8BD5CA",
-    // "terminal.ansiGreen": "#A6DA95",
-    // "terminal.ansiMagenta": "#F5BDE6",
-    // "terminal.ansiRed": "#ED8796",
-    // "terminal.ansiWhite": "#B8C0E0",
-    // "terminal.ansiYellow": "#EED49F",
-    // "terminal.ansiBrightBlack": "#5B6078",
-    // "terminal.ansiBrightBlue": "#8AADF4",
-    // "terminal.ansiBrightCyan": "#8BD5CA",
-    // "terminal.ansiBrightGreen": "#A6DA95",
-    // "terminal.ansiBrightMagenta": "#F5BDE6",
-    // "terminal.ansiBrightRed": "#ED8796",
-    // "terminal.ansiBrightWhite": "#A5ADCB",
-    // "terminal.ansiBrightYellow": "#EED49F",
-    // "terminal.background": "#24273A",
-    // "terminal.foreground": "#CAD3F5",
-    // "terminal.selectionBackground": "#5B6078",
-    // "terminalCursor.foreground": "#F4DBD6",
-  },
+  // #endregion ----------------------------------------------------------------
+  // #region window ------------------------------------------------------------
+  "window.commandCenter": false,
+  "window.confirmBeforeClose": "keyboardOnly",
+  "window.confirmSaveUntitledWorkspace": false,
+  "window.dialogStyle": "custom",
+  "window.menuBarVisibility": "toggle",
+  "window.nativeTabs": true, // this is great, macOS only
+  "window.title": "${rootNameShort}",
+  "window.titleBarStyle": "custom",
+  // #endregion ----------------------------------------------------------------
+  // #region workbench ---------------------------------------------------------
+  "workbench.activityBar.location": "top",
   "workbench.colorTheme": "Catppuccin Mocha",
+  "workbench.editorAssociations": {
+    "*.ptb": "default",
+    "*.svg": "default"
+  },
   "workbench.editor.closeOnFileDelete": true,
   "workbench.editor.empty.hint": "hidden",
   "workbench.editor.limit.enabled": true,
@@ -151,55 +173,142 @@
   "workbench.iconTheme": "catppuccin-mocha",
   "workbench.productIconTheme": "icons-carbon",
   "workbench.settings.applyToAllProfiles": [
-    "editor.fontFamily"
+    "editor.fontFamily",
+    "terminal.integrated.fontFamily"
   ],
   "workbench.startupEditor": "none",
-  /** vscode - window
-  * ------------------------------------------------------------------------- */
-  // "window.autoDetectColorScheme": true,
-  "window.commandCenter": false,
-  "window.confirmBeforeClose": "keyboardOnly",
-  "window.dialogStyle": "custom",
-  "window.menuBarVisibility": "toggle",
-  "window.nativeTabs": true, // this is great, macOS only
-  "window.title": "${rootNameShort}",
-  "window.titleBarStyle": "custom",
-  /** vscode - javascript/typescript
-  * ------------------------------------------------------------------------- */
-  "javascript.format.insertSpaceAfterConstructor": true,
-  "javascript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": true,
-  "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  /** vscode - json
-  * ------------------------------------------------------------------------- */
-  "json.schemaDownload.enable": false,
-  "json.validate.enable": false,
-  /** vscode - git
-  * ------------------------------------------------------------------------- */
+  // #endregion ----------------------------------------------------------------
+  // #region extensions - Built-in ---------------------------------------------
+  "extensions.autoUpdate": "onlyEnabledExtensions",
+  "extensions.ignoreRecommendations": true,
   "git.autofetch": true,
   "git.confirmSync": false,
   "git.enableSmartCommit": true,
+  "git.ignoreMissingGitWarning": true,
   "git.untrackedChanges": "separate",
-  /** extensions
-  * ------------------------------------------------------------------------- */
-  "extensions.ignoreRecommendations": true,
-  /** extensions - gitlens
-  * ------------------------------------------------------------------------- */
+  // #endregion ----------------------------------------------------------------
+  // #region extensions - Apc Customize UI++ -----------------------------------
+  "apc.imports": [
+    "file:///c:/Users/issuser/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.3/dist/updateHandler.js"
+  ],
+  // #endregion ----------------------------------------------------------------
+  // #region extensions - Code Runner ------------------------------------------
+  "code-runner.clearPreviousOutput": true,
+  "code-runner.showRunCommandInEditorContextMenu": false,
+  // #endregion ----------------------------------------------------------------
+  // #region extensions - Code Spell Checker -----------------------------------
+  "cSpell.customDictionaries": {
+    "custom-dictionary-user": {
+      "name": "custom-dictionary-user",
+      "path": "~/.cspell/custom-dictionary-user.txt",
+      "addWords": true,
+      "scope": "user"
+    },
+  },
+  // #endregion ----------------------------------------------------------------
+  // #region extensions - CodeSnap ---------------------------------------------
+  "codesnap.containerPadding": "1em",
+  // #endregion ----------------------------------------------------------------
+  // #region extensions - Color Highlight --------------------------------------
+  "color-highlight.markRuler": false,
+  "color-highlight.markerType": "underline",
+  // #endregion ----------------------------------------------------------------
+  // #region extensions - Color Manager ----------------------------------------
+  "color-manager.contextMenu": {
+    "findColors": false,
+    "openPicker": false,
+    "openPalette": false,
+    "edit": false
+  },
+  // #endregion ----------------------------------------------------------------
+  // #region extensions - Draw.io Integration ----------------------------------
+  "hediet.vscode-drawio.customColorSchemes": [
+    [
+      {
+        "fill": "#ffffff",
+        "stroke": "#888888"
+      },
+      {
+        "fill": "#88888888",
+        "stroke": "none"
+      },
+      {
+        "fill": "#f5e0dc",
+        "stroke": "#f5e0dc"
+      },
+      {
+        "fill": "#f2cdcd",
+        "stroke": "#f2cdcd"
+      },
+      {
+        "fill": "#f5c2e7",
+        "stroke": "#f5c2e7"
+      },
+      {
+        "fill": "#cba6f7",
+        "stroke": "#cba6f7"
+      },
+      {
+        "fill": "#f38ba8",
+        "stroke": "#f38ba8"
+      },
+      {
+        "fill": "#eba0ac",
+        "stroke": "#eba0ac"
+      },
+    ],
+    [
+      {
+        "fill": "#fab387",
+        "stroke": "#fab387"
+      },
+      {
+        "fill": "#f9e2af",
+        "stroke": "#f9e2af"
+      },
+      {
+        "fill": "#a6e3a1",
+        "stroke": "#a6e3a1"
+      },
+      {
+        "fill": "#94e2d5",
+        "stroke": "#94e2d5"
+      },
+      {
+        "fill": "#89dceb",
+        "stroke": "#89dceb"
+      },
+      {
+        "fill": "#74c7ec",
+        "stroke": "#74c7ec"
+      },
+      {
+        "fill": "#89b4fa",
+        "stroke": "#89b4fa"
+      },
+      {
+        "fill": "#b4befe",
+        "stroke": "#b4befe"
+      }
+    ]
+  ],
+  // #endregion ----------------------------------------------------------------
+  // #region extensions - Gitlens ----------------------------------------------
   "gitlens.ai.experimental.model": "openai:gpt-4o",
   "gitlens.codeLens.authors.enabled": false,
   "gitlens.graph.minimap.additionalTypes": [
     "stashes"
   ],
-  /** extensions - vue official
-  * ------------------------------------------------------------------------- */
-  "vue.autoInsert.dotValue": true,
-  "vue.server.hybridMode": false,
-  "vue.splitEditors.icon": true,
-  /** extensions - vite
-  * ------------------------------------------------------------------------- */
-  "vite.autoStart": false,
-  /** extensions - prettier
-  * ------------------------------------------------------------------------- */
+  "gitlens.graph.minimap.enabled": false,
+  "gitlens.views.commitDetails.files.layout": "tree",
+  // #endregion ----------------------------------------------------------------
+  // #region extensions - i18n Ally --------------------------------------------
+  "i18n-ally.displayLanguage": "zh-CN",
+  // #endregion ----------------------------------------------------------------
+  // #region extensions - NGINX Configuration Language Support -----------------
+  "nginx-conf-hint.format.align": true,
+  // #endregion ----------------------------------------------------------------
+  // #region extensions - Prettier ---------------------------------------------
   "prettier.arrowParens": "avoid",
   "prettier.bracketSameLine": false,
   "prettier.bracketSpacing": true,
@@ -214,23 +323,56 @@
     "**/*.wxss",
     "**/*.wxs",
   ],
-  /** extensions - color highlight
-  * ------------------------------------------------------------------------- */
-  "color-highlight.markRuler": false,
-  "color-highlight.markerType": "underline",
-  /** extensions - todo tree
-  * ------------------------------------------------------------------------- */
+  // #endregion ----------------------------------------------------------------
+  // #region extensions - Rewrap -----------------------------------------------
+  "rewrap.autoWrap.enabled": true,
+  "rewrap.reformat": true,
+  "rewrap.wrappingColumn": 80,
+  // #endregion ----------------------------------------------------------------
+  // #region extensions - REST Client ------------------------------------------
+  "rest-client.defaultHeaders": {
+    "User-Agent": "vscode-restclient",
+    "Content-Type": "application/json;charset=UTF-8"
+  },
+  "rest-client.showResponseInDifferentTab": true,
+  "rest-client.timeoutinmilliseconds": 6e4,
+  // #endregion ----------------------------------------------------------------
+  // #region extensions - Markdown Preview Enhanced ----------------------------
+  "markdown-preview-github-styles.darkTheme": "dark_dimmed",
+  "markdown-preview-enhanced.previewTheme": "github-dark.css",
+  "markdown-preview-enhanced.revealjsTheme": "moon.css",
+  "markdown-preview-enhanced.codeBlockTheme": "github-dark.css",
+  "markdown-preview-enhanced.alwaysShowBacklinksInPreview": false,
+  // #endregion ----------------------------------------------------------------
+  // #region extensions - Microsoft Edge Tools for VS Code ---------------------
+  "vscode-edge-devtools.webhint": false,
+  // #endregion ----------------------------------------------------------------
+  // #region extensions - Todo Tree --------------------------------------------
+  "todo-tree.general.tags": [
+    "BUG",
+    "FIXME",
+    "TODO",
+    "NOTE",
+    "// //",
+  ],
+  // Allow for matches inside of VSCode files (e.g. `settings.json`).
+  "todo-tree.general.schemes": [
+    "unfile",
+    "untitled",
+    "vscode-userdata"
+  ],
   "todo-tree.highlights.customHighlight": {
-    "TODO": {
+    "BUG": {
+      "foreground": "red",
+    },
+    "FIXME": {
       "foreground": "orange",
+    },
+    "TODO": {
+      "foreground": "yellow",
     },
     "NOTE": {
       "foreground": "green",
-      "icon": "note",
-    },
-    "FIXME": {
-      "foreground": "red",
-      "icon": "alert",
     },
     // Clearly mark comments that belong to disabled (commented-out) code.
     "// //": {
@@ -240,95 +382,43 @@
       "hideFromTree": true,
     },
   },
-  "todo-tree.tree.grouped": true,
-  "todo-tree.tree.hideIconsWhenGroupedByTag": true,
+  // Allows for matches inside of JSDoc comments.
+  "todo-tree.regex.regex": "((\\*|//|#|<!--|;|/\\*|^)\\s*($TAGS)|^\\s*- \\[ \\])",
+  "todo-tree.highlights.highlightDelay": 0,
+  "todo-tree.tree.groupedByTag": true,
   "todo-tree.tree.labelFormat": "∙ ${after}",
   "todo-tree.tree.showCountsInTree": true,
   "todo-tree.tree.showInExplorer": false,
   "todo-tree.tree.showScanOpenFilesOrWorkspaceButton": true,
   "todo-tree.tree.tagsOnly": true,
-  "todo-tree.highlights.highlightDelay": 0,
-  "todo-tree.general.tags": [
-    "TODO",
-    "NOTE",
-    "FIXME",
-    "// //",
+  // #endregion ----------------------------------------------------------------
+  // #region extensions - Vite -------------------------------------------------
+  "vite.autoStart": false,
+  // #endregion ----------------------------------------------------------------
+  // #region extensions - VSCode Animations ------------------------------------
+  "animations.Install-Method": "Apc Customize UI++",
+  // #endregion ----------------------------------------------------------------
+  // #region extensions - Vue - Official ---------------------------------------
+  "vue.autoInsert.dotValue": true,
+  "vue.splitEditors.icon": true,
+  "vue.server.hybridMode": "typeScriptPluginOnly",
+  // #endregion ----------------------------------------------------------------
+  // #region last updated ------------------------------------------------------
+  "diffEditor.ignoreTrimWhitespace": true,
+  "scm.diffDecorationsGutterWidth": 2,
+  "update.mode": "manual",
+  "update.showReleaseNotes": false,
+  "grunt.autoDetect": "off",
+  "gulp.autoDetect": "off",
+  "jake.autoDetect": "off",
+  "typescript.tsc.autoDetect": "off",
+  "security.allowedUNCHosts": [
+    "wsl.localhost"
   ],
-  // Allow for matches inside of VSCode files (e.g. `settings.json`).
-  "todo-tree.general.schemes": [
-    "file",
-    "untitled",
-    "vscode-userdata"
-  ],
-  // Allows for matches inside of JSDoc comments.
-  "todo-tree.regex.regex": "((\\*|//|#|<!--|;|/\\*|^)\\s*($TAGS)|^\\s*- \\[ \\])",
-  /** extensions - rewrap
-  * ------------------------------------------------------------------------- */
-  "rewrap.autoWrap.enabled": true,
-  "rewrap.reformat": true,
-  "rewrap.wrappingColumn": 80,
-  /** extensions - code runner
-  * ------------------------------------------------------------------------- */
-  "code-runner.clearPreviousOutput": true,
-  /** extensions - codesnap
-  * ------------------------------------------------------------------------- */
-  "codesnap.containerPadding": "1em",
-  /** extensions - rest client
-  * ------------------------------------------------------------------------- */
-  "rest-client.showResponseInDifferentTab": true,
-  /** extensions - edge devtools
-  * ------------------------------------------------------------------------- */
-  "vscode-edge-devtools.webhint": false,
-  /** extensions - markdown preview enhanced
-  * ------------------------------------------------------------------------- */
-  "markdown-preview-github-styles.darkTheme": "dark_dimmed",
-  "markdown-preview-enhanced.previewTheme": "github-dark.css",
-  "markdown-preview-enhanced.revealjsTheme": "moon.css",
-  "markdown-preview-enhanced.codeBlockTheme": "github-dark.css",
-  "markdown-preview-enhanced.alwaysShowBacklinksInPreview": false,
-  /** extensions - dotenv
-  * ------------------------------------------------------------------------- */
-  "dotenv.enableAutocloaking": false,
+  "security.workspace.trust.untrustedFiles": "open",
   "svg.preview.mode": "svg",
-  "i18n-ally.displayLanguage": "zh-CN",
   "vscode-office.editorLanguage": "zh_CN",
   "vscode-office.openOutline": false,
-  "cSpell.customDictionaries": {
-    "custom-dictionary-user": {
-      "name": "custom-dictionary-user",
-      "path": "~/.cspell/custom-dictionary-user.txt",
-      "addWords": true,
-      "scope": "user"
-    }
-  },
-  /** others
-  * ------------------------------------------------------------------------- */
-  "files.autoGuessEncoding": true,
-  "files.eol": "\n",
-  "files.insertFinalNewline": true,
-  "files.simpleDialog.enable": true,
-  "files.trimTrailingWhitespace": true,
-  "update.mode": "manual",
-  "security.workspace.trust.untrustedFiles": "open",
-  "diffEditor.ignoreTrimWhitespace": false,
-  "typescript.tsc.autoDetect": "off",
-  "grunt.autoDetect": "off",
-  "jake.autoDetect": "off",
-  "gulp.autoDetect": "off",
-  "explorer.confirmDragAndDrop": false,
-  "scm.diffDecorationsGutterWidth": 2,
-  "extensions.autoUpdate": "onlyEnabledExtensions",
-  "search.showLineNumbers": true,
-  "workbench.activityBar.location": "top",
-  "security.allowedUNCHosts": [
-    "wsl$"
-  ],
-  "gitlens.graph.minimap.enabled": false,
-  "git.ignoreMissingGitWarning": true,
-  "gitlens.views.commitDetails.files.layout": "tree",
-  "hediet.vscode-drawio.codeLinkActivated": false,
-  "animations.Install-Method": "Apc Customize UI++",
-  "apc.imports": [
-    "file:///c:/Users/Io_oT/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.3/dist/updateHandler.js"
-  ],
+  "fittencode.showSubmenu": true,
+  // #endregion ----------------------------------------------------------------
 }

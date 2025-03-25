@@ -1,29 +1,16 @@
 # oh-settings
 
-## visudo studio code
+## Power Toys
 
-### user
+- [settings](power-toys/settings.ptb)
 
-[user settings](visual-studio-code/settings.json)
+## Visudo Studio Code
 
-### workspace
+- [user settings](visual-studio-code/settings.json)
+- [extensions](visual-studio-code/.vscode/extensions.json)
 
-#### extensions
+## Wechat Developer Devtools
 
-[extensions](visual-studio-code/.vscode/extensions.json)
-
-## wechat developer devtools
-
-### user
-
-[user settings](wechat-developer-devtools/settings.json)
-
-### workspace
-
-#### extensions
-
-[extensions](wechat-developer-devtools/.vscode/extensions.json)
-
-#### settings
-
-[workspace settings](wechat-developer-devtools/.vscode/settings.json)
+- [user settings](wechat-developer-devtools/settings.json)
+- [workspace settings](wechat-developer-devtools/.vscode/settings.json)
+- [extensions](wechat-developer-devtools/.vscode/extensions.json)
